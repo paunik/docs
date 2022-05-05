@@ -105,7 +105,7 @@ promise.completeWithTask {
 let futureString: EventLoopFuture<String> = promise.futureResult
 ```
 
-## `EventLoopFuture`s
+## `EventLoopFutures`
 
 You may have noticed some APIs in Vapor expect or return a generic `EventLoopFuture` type. If this is your first time hearing about futures, they might seem a little confusing at first. But don't worry, this guide will show you how to take advantage of their powerful APIs. 
 
